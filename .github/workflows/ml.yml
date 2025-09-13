@@ -1,0 +1,13 @@
+﻿name: ml-service
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "apps/ml-service/**"
+      - ".github/workflows/ml.yml"
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "ML CI will be set after its scaffold"

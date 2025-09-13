@@ -1,0 +1,11 @@
+﻿{
+  "name": "arya.ai",
+  "private": true,
+  "workspaces": ["apps/*","packages/*"],
+  "engines": { "node": ">=18.18.0" },
+  "scripts": {
+    "fmt": "echo \"(formatter to be added)\"",
+    "lint": "echo \"(lint to be added)\"",
+    "test": "echo \"(tests to be added)\""
+  }
+}

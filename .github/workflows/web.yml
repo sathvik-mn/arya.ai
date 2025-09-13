@@ -1,0 +1,13 @@
+﻿name: web
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "apps/web/**"
+      - ".github/workflows/web.yml"
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Web CI will be set after Step 2"

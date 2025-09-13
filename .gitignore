@@ -1,0 +1,38 @@
+﻿# OS
+.DS_Store
+Thumbs.db
+
+# Node/Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*
+.vercel/
+dist/
+build/
+
+# Python (ml-service)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.envrc
+
+# Electron (desktop)
+release/
+*.asar
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs & temp
+logs/*.log
+*.log
+*.tmp
+coverage/

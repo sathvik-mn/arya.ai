@@ -1,0 +1,13 @@
+﻿name: desktop
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "apps/desktop/**"
+      - ".github/workflows/desktop.yml"
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Desktop build pipeline will be added later"
